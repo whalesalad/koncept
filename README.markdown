@@ -4,13 +4,19 @@ By Michael Whalen
 
 Koncept is a really *really* simple system I created in a few hours to share some mockups with a client. Rather than emailing a collection of them with lots of text or uploading a lot of images and copying url's to them, I figured a nice structured system would be best. I also managed to create a system that doesn't require a database at all. The database exists atop the filesystem itself.
 
-There is a `projects` directory designed to contain folders for individual projects. Each project folder is named with a slug. In the repo is an example for a current client of mine, Arbesko. Inside of that folder there are any number of screenshots in any type (png, gif, jpg, etc...) and a file called manifest.json. 
+VIEW A LIVE DEMO: [http://boxd.in](http://boxd.in)
+
+There is a `projects` directory designed to contain folders for individual projects. Each project folder is named with a slug. In the repo is an example for a current client of mine, Arbesko. Inside of that folder there are any number of screenshots in any type (png, gif, jpg, etc...) and a file called `manifest.json`. 
 
 ### The Manifest File
 
 The manifest is a very simple json file with a handful of properties. The name of the project, a breif summary of the project, and then the various items (in an items array) or screenshots. This was built in a few hours as proof-of-concept prototype, hence the name koncept (as it's a concept at the moment, used to share concepts, lulz). 
 
 Each item contains a name string, a src string (filename relative to the manifest file, in fact the files can only be siblings of the manifest) and a description of the screenshot.
+
+### Workflow
+
+The screenshots are stored inside of the project folder alongside the `manifest.json` file. Pretty simple the way everything works. Typical workflow is creating a folder or copying an existing project folder, uploading the screenshots, and editing the `manifest.json` file in your favorite text editor (ahem, TextMate)
 
 ### Server Config
 
