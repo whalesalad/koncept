@@ -58,3 +58,12 @@ I built this with PHP5 in a Debian VM. I am using nginx and a fastcgi process, b
         }
     }
 
+### In the future
+
+This is a real minor sprint in the direction of a system/service I have been meaning to create for a very long time. A simple way to share mockups with clients, and receive feedback on those mockups. I'd definitely like to grow and expand it, and have a handful of ideas in the pipeline. 
+
+ * **Commenting** - I'd like users to be able to make comments on individual mockups, and in a perfect world, annotations to certain parts of the mockup. This is fairly simple to do, but introduces the need for a database. In the short future (hopefully, knock on wood) this koncept will move from being a database-free prototype, to a full fledged saas application.
+ * **Enhanced GUI** - For a few hours of work, I have to say that this is pretty good. I've already used it once with a client and am awaiting feedback both on the mockups, heh, as well as the experience using this new "system" over typical emailing of attachments and/or url's to images. The gui can certainly be enhanced with better browsing tools as well as thumbnails for the screenshots. Better text formatting capabilities would be nice as well.
+ * **Password protection** - I'd like to integrate user accounts so that projects can have owners, commenters, and spectators. That way an owner (such as myself, a design shop) can create projects and assign commenters (such as the client) and/or spectators (such as a friend or colleague) to participate in viewing and commenting.
+ 
+ 
