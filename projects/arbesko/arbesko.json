@@ -1,0 +1,11 @@
+{
+    name: "Arbesko",
+    summary: "A client for a Swedish company that makes shoes.",
+    items: [
+        {
+            name: "Homepage",
+            slug: "homepage",
+            description: "This is the new homepage. Here are some comments."
+        }
+    ]
+}
