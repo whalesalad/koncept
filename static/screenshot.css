@@ -1,0 +1,27 @@
+* { margin: 0; padding: 0; }
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#header {
+    background: #CCC;
+    padding: 10px;
+}
+
+    #header a {
+        color: #555;
+    }
+
+#subheader {
+    background: #EEE;
+    padding: 20px 100px;
+    text-align: center;
+}
+
+#screenshot {
+    text-align: center;
+    padding: 10px;
+}

@@ -1,18 +1,21 @@
 * { margin: 0; padding: 0; }
 
 body {
-    background: #EEE;
+    background: #D5F7D4;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 #wrapper {
     width: 800px;
-    margin: 30px auto;
+    margin: 30px auto 20px auto;
 }
 
     #wrapper #header {
         background: #222;
-        color: #FFF;
         -webkit-border-top-left-radius: 10px;
         -webkit-border-top-right-radius: 10px;
         -moz-border-radius-topleft: 10px;
@@ -23,8 +26,18 @@ body {
     
         #wrapper #header h1 {
             font-weight: normal;
+            color: #47CE43;
         }
-    
+        
+        #wrapper #header h1 a {
+            color: #47CE43;
+            text-decoration: none;
+        }
+        
+        #wrapper #header h1 a:hover {
+            color: #92D590;
+        }
+        
     #wrapper #subheader {
         background: #555;
         padding: 0 20px;
@@ -35,6 +48,21 @@ body {
         #wrapper #subheader h2 {
             font-size: 14px;
         }
+        
+        #wrapper #subheader h2 span,
+        #wrapper #subheader h2 a.back {
+            color: #BBB;
+            font-weight: normal;
+        }
+        
+        #wrapper #subheader h2 a {
+            color: #EEE;
+        }
+        
+        #wrapper #subheader h2 a.back {
+            float: right;
+            font-size: 12px;
+        }
     
     #wrapper #content {
         background-color: #FFF;
@@ -43,4 +71,41 @@ body {
         -webkit-border-bottom-right-radius: 10px;
         -moz-border-radius-bottomleft: 10px;
         -moz-border-radius-bottomright: 10px;
+    }
+    
+        #wrapper #content p {
+            font-size: 12px;
+            line-height: 20px;
+            color: #222;
+        }
+        
+        #wrapper #content a {
+            color: #43A2CE;
+        }
+        
+        #wrapper #content ul {
+            margin: 1em 2em;
+            list-style-type: square;
+            line-height: 20px;
+        }
+        
+            #wrapper #content ul li {
+                font-size: 12px;
+                margin-bottom: 1em;
+            }
+            
+            #wrapper #content ul li h4 {
+                font-size: 14px;
+            }
+
+#footer {
+    width: 500px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    font-size: 11px;
+    color: #47CE43;
+}
+
+    #footer a {
+        color: #47CE43;
     }

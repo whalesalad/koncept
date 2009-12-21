@@ -1,0 +1,35 @@
+{
+    "name": "Arbesko",
+    "description": "A Swedish company that manufactures occupational footwear.",
+    "items": [
+        {
+            "name": "Homepage",
+            "img": "homepage.png",
+            "description": "This is the new homepage. It hasn't progressed much far since the last version, if at all. I'm definitely going to move on to this next. It's mainly a demonstration of what the new header looks like"
+        },
+        {
+            "name": "About",
+            "img": "about.png",
+            "description": "This is the about page. You'll notice that I incorporated a photo of the CEO with a quote from him (like the old site). The sidebar houses the navigation to various other pages."
+        },
+        {
+            "name": "Sub-page, Cast Medical",
+            "img": "about_castmedical.png",
+            "description": "This a sub-page of the About page. You can see that one of the navigation items is slightly different than the rest to indicate that it's enabled. Another photo is shown here, with a quote, and some text."
+        },
+        {
+            "name": "Contact Us",
+            "img": "contact.png",
+            "description": "This page shows the new functionality I would like to add to your contact pages. On the left is a map that will automatically adjust to the desired location. If you choose one of the alternate locations from below the map (which is an accordion style widget) the map would animate and show the new location. On the right side of things is a small introductory widget to the store locator, hitta butik!, and a bit of text about the contact form. I'm thinking if desired, the user can click on the link to open a small popup with a form to contact various departments."
+        },
+        {
+            "name": "News",
+            "img": "news.png",
+            "description": "The news page is currently my most favorite part of the site. I noticed on your current blog you have the concept of asking engineers and shoe doctors questions. I thought I would expand on that to bring the site more in-line with social media and interacting with customers over the web, to provide a more offical \"Ask Arbesko\" component of the blog where people can ask questions and receive answers in a blog form. The blog system will also, as you desired, act-as/replace the news system. So you can create simple news posts to update everyone on certain things (such as a new product) within the same system as sharing a video or answering an \"Ask Arbesko\" question. "
+        }
+        
+        
+        
+        
+    ]
+}

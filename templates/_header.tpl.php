@@ -8,10 +8,13 @@
 <body>
 <div id="wrapper">
     <div id="header">
-        <h1>Koncept</h1>
+        <h1><a href="/">Koncept</a></h1>
     </div>
     <div id="subheader">
-        <h2><?= $this->eprint($this->title); ?></h2>
+        <h2>
+        <?php if (isset($this->project)): ?><a href="/" class="back">Return to Project Listing &rsaquo; </a><?php endif ?>
+        <?= $this->eprint($this->title); ?>
+        </h2>
     </div>
     
     <div id="content">
