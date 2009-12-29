@@ -3,8 +3,8 @@
     <ul>
         <?php foreach ($this->project->items as $key => $screenshot): ?>
             <li>
-                <h4><a href="<?= $this->eprint($screenshot->relative_url); ?>"><?= $this->eprint($screenshot->name); ?></a></h4>
-                <p><?= $this->eprint($screenshot->description); ?></p>
+                <h4><a href="<?= $screenshot->relative_url; ?>"><?= $screenshot->name; ?></a></h4>
+                <p><?= $screenshot->description; ?></p>
             </li>
         <?php endforeach ?>
     </ul>

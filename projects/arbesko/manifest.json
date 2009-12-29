@@ -1,35 +1,58 @@
 {
     "name": "Arbesko",
     "description": "A Swedish company that manufactures occupational footwear.",
+    "style": "style/style.css",
     "items": [
         {
             "name": "Homepage",
             "img": "homepage.png",
-            "description": "This is the new homepage. It hasn't progressed much far since the last version, if at all. I'm definitely going to move on to this next. It's mainly a demonstration of what the new header looks like"
+            "description": "The primary feature of the Homepage is the scrolling content pane located just beneath the header. This will feature multiple panes which can be anything from a simple image or an animation, all the way up to more interactive content.<br/> The <strong>Arbesko Catalog</strong> button will open a popup image which lets the user choose the desired language of catalog to download.<br/> The browse online button will lead users to the catalog, where they can explore all of the products online.<br/> Clicking on <strong>Arbesko Videos</strong> will go to a special page showing a grid of all of your videos. Clicking on the actual video screenshot will open up the video inside of a 'black popup' similar to the PDF download."
         },
         {
-            "name": "About",
+            "name": "Catalog Download Popup",
+            "img": "download-popup.png",
+            "description": "Please ignore the lack of proper background overlay for this demo. The entire screen will be dimmed and the user's focus will be on the box, which prompts them to select a language. Once clicked, their download will begin.",
+            "nocss": true
+        },        
+        {
+            "name": "Blog",
+            "img": "blog.png",
+            "description": "The blog will serve as an area for product updates and company news, and for Swedish visitors (and possibly US visitors) the <strong>Ask Arbesko</strong> will be visible."
+        },
+        {
+            "name": "Added Value",
+            "img": "addedvalue.png",
+            "description": "This page shows the grid of various added special abilities of Arbesko footwear."
+        },
+        {
+            "name": "Added Value &rsaquo; Stability System",
+            "img": "addedvalue-sub.png",
+            "description": "This is a good example of a sub-page, specifically one of Arbesko's added values: Stability System.<br/> A button at the bottom of the page lets visitors explore various products that incorporate the STSY feature."
+        },
+        {
+            "name": "Added Value &rsaquo; Super 8",
+            "img": "addedvalue-super8.png",
+            "description": "This is another example of a sub page. This mockup shows an example image on the right side, which makes the page a little more attractive and balanced, while helping to demonstrate the amazing waterproof abilities of Super 8. Most pages will have photos in them."
+        },
+        {
+            "name": "Products",
+            "img": "products.png",
+            "description": "This page is very incomplete, unfortunately. I wanted to have all of the product pages complete for this phase, but didn't get them finished.<br/> Shown below is a concept for letting visitors browse products by the industry that they work in."
+        },
+        {
+            "name": "About Us",
             "img": "about.png",
-            "description": "This is the about page. You'll notice that I incorporated a photo of the CEO with a quote from him (like the old site). The sidebar houses the navigation to various other pages."
+            "description": "Aside from the addition of the new header, this page has not changed very much. A new sidebar navigation has been added, as well as links to Facebook and Youtube."
         },
         {
-            "name": "Sub-page, Cast Medical",
-            "img": "about_castmedical.png",
-            "description": "This a sub-page of the About page. You can see that one of the navigation items is slightly different than the rest to indicate that it's enabled. Another photo is shown here, with a quote, and some text."
+            "name": "About Us &rsaquo; Cast Medical",
+            "img": "about-sub.png",
+            "description": "This page has taken some of the new elements from the new base about page, but remains mostly the same."
         },
         {
             "name": "Contact Us",
             "img": "contact.png",
-            "description": "This page shows the new functionality I would like to add to your contact pages. On the left is a map that will automatically adjust to the desired location. If you choose one of the alternate locations from below the map (which is an accordion style widget) the map would animate and show the new location. On the right side of things is a small introductory widget to the store locator, hitta butik!, and a bit of text about the contact form. I'm thinking if desired, the user can click on the link to open a small popup with a form to contact various departments."
-        },
-        {
-            "name": "News",
-            "img": "news.png",
-            "description": "The news page is currently my most favorite part of the site. I noticed on your current blog you have the concept of asking engineers and shoe doctors questions. I thought I would expand on that to bring the site more in-line with social media and interacting with customers over the web, to provide a more offical \"Ask Arbesko\" component of the blog where people can ask questions and receive answers in a blog form. The blog system will also, as you desired, act-as/replace the news system. So you can create simple news posts to update everyone on certain things (such as a new product) within the same system as sharing a video or answering an \"Ask Arbesko\" question. "
+            "description": "This page has been rearranged a bit, but nothing serious. Colored orange headers were also added in, to match with the homepage and rest of the site."
         }
-        
-        
-        
-        
     ]
 }

@@ -1,6 +1,7 @@
 <?php
 
 // Define the projects directory
+define('KONCEPT_VERSION', 1.1);
 define('KONCEPT_PROJECTS', dirname(__FILE__).'/projects');
 define('KONCEPT_TEMPLATES', dirname(__FILE__).'/templates');
 define('KONCEPT_FUNCS', dirname(__FILE__).'/functions/');

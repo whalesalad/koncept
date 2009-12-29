@@ -1,7 +1,7 @@
 * { margin: 0; padding: 0; }
 
 body {
-    background: #D5F7D4;
+    background: #EEE;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -20,22 +20,46 @@ a:hover {
         -webkit-border-top-right-radius: 10px;
         -moz-border-radius-topleft: 10px;
         -moz-border-radius-topright: 10px;
-        padding: 0 20px;
-        line-height: 70px;
+        padding: 0 17px;
+        line-height: 50px;
     }
     
+        #wrapper #header .version {
+            color: #555;
+            float: right;
+            font-family: Consolas, Monaco, Courier, "Courier New", Verdana, sans-serif;
+            font-size: 12px;
+        }
+    
         #wrapper #header h1 {
+            font-size: 24px;
             font-weight: normal;
-            color: #47CE43;
+            color: #43A2CE;
+            display: inline;
+            
         }
         
         #wrapper #header h1 a {
-            color: #47CE43;
+            color: #43A2CE;
             text-decoration: none;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            padding: 3px;
+            
         }
         
         #wrapper #header h1 a:hover {
-            color: #92D590;
+            color: #FFF;
+            background-color: #6BB6D9;
+            border-color: #6BB6D9;
+        }
+        
+        #wrapper #header h2 {
+            display: inline;
+            color: #2C7DA0;
+            font-weight: normal;
+            font-size: 14px;
+            margin-left: 15px;
         }
         
     #wrapper #subheader {
@@ -103,9 +127,9 @@ a:hover {
     margin: 0 auto 20px auto;
     text-align: center;
     font-size: 11px;
-    color: #47CE43;
+    color: #CCC;
 }
 
     #footer a {
-        color: #47CE43;
+        color: #CCC;
     }

@@ -45,8 +45,13 @@ function kview_screenshot($project, $screenshot_id) {
     $tpl = new Savant3(array("template_path" => KONCEPT_TEMPLATES));
     
     $screenshot = $project->items[$screenshot_id];
-    if (!$screenshot) {
+    
+    // 404 if the screenshot we're trying to lookup is not found
+    if (!$screenshot)
         return kview_404();
+        
+    if ($project->custom_stylesheet) {
+        $tpl->stylesheet = $project->custom_stylesheet;
     }
     
     // Assign response vars to the template

@@ -6,22 +6,61 @@ body {
     line-height: 20px;
 }
 
-#header {
-    background: #CCC;
-    padding: 10px;
+#upperBar {
+    position: fixed;
+    width: 100%;
+    background: url(upperBarBg.png);
+    color: #FFF;
+    display: none;
 }
 
-    #header a {
-        color: #555;
+    #upperBar .inner {
+        padding: 15px;
+        width: 870px;
+        margin: 0 auto;
     }
-
-#subheader {
-    background: #EEE;
-    padding: 20px 100px;
-    text-align: center;
-}
+    
+    #upperBar .heading {
+        display: block;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px dotted #FFF;
+    }
+    
+        #upperBar .heading h2 {
+            display: inline;
+        }
+        
+        
+        #upperBar .heading span.link {
+            display: inline;
+            margin-left: 10px;
+        }
+        
+            #upperBar .heading span.link a {
+                color: #EEE;
+            }
+            
+            #upperBar .heading span.link a:hover {
+                text-decoration: none;
+            }
+    
+    #upperBar .description {
+        display: block;
+        clear: both;
+    }
 
 #screenshot {
     text-align: center;
-    padding: 10px;
+    padding: 0;
+}
+
+    #screenshot img {
+        margin: 0 0 -6px 0;
+        padding: 0;
+    }
+
+.clear {
+    display: block;
+    clear: both;
 }

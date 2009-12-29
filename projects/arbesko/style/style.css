@@ -1,0 +1,7 @@
+#screenshot {
+    background: url(headerBg.png) top left repeat-x;
+}
+
+    #screenshot .inner {
+        background: url(footerBg.png) bottom left repeat-x;
+    }
